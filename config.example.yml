@@ -6,6 +6,9 @@ plugins:
 
     - name: 'Example'
       path: './plugins/siriproxy-example'
+      
+    - name: 'Arduino'
+      git: 'git://github.com/nicoritschel/siriproxy-arduino.git'
 
     # - name: 'Thermostat'
     #   git: 'git://github.com/plamoni/SiriProxy-Thermostat.git'
